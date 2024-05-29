@@ -5,7 +5,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:smart_home/components/route_page.dart';
 import 'package:smart_home/screen/dashboard_screen.dart';
-import 'package:smart_home/screen/login_screen.dart';
 
 class SignupAuthProvider with ChangeNotifier {
   static Pattern pattern =

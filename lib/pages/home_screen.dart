@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:smart_home/pages/ac_controll.dart';
 import 'package:smart_home/pages/garden/garden_page.dart';
 import 'package:smart_home/pages/kitchen/kitchenpage.dart';
-import 'package:smart_home/pages/light_bulb_controll.dart';
 import 'package:smart_home/pages/salon/salon.dart';
-import 'package:smart_home/pages/stove_controlle.dart';
 import 'package:smart_home/screen/dashboard_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -21,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
     DashboardScreen(),
     SalonControll(),
     KitchenControll(),
-    GardenControll(),
+    GardenControl(),
     ProfilePage(),
   ];
 
