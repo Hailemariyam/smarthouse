@@ -157,7 +157,7 @@ class _GardenControlState extends State<GardenControl> {
               child: Container(
                 padding: EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Column(
@@ -195,7 +195,7 @@ class _GardenControlState extends State<GardenControl> {
               child: Container(
                 padding: EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Column(
@@ -233,7 +233,7 @@ class _GardenControlState extends State<GardenControl> {
               child: Container(
                 padding: EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.8),
+                  color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Column(
@@ -256,7 +256,7 @@ class _GardenControlState extends State<GardenControl> {
                       onPressed: _cancelControl,
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.red,
-                      ),
+                      ), 
                       child: Text('Cancel'),
                     ),
                   ],
