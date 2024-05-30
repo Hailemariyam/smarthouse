@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
   static List<Widget> _widgetOptions = <Widget>[
     DashboardScreen(),
     SalonControll(),
-    KitchenControll(),
+    KitchenControl(),
     GardenControl(),
     ProfilePage(),
   ];
